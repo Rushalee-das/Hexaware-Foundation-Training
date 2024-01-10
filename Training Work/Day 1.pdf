@@ -1,0 +1,40 @@
+Question-1
+Find a pair with the given sum in an array
+Given an unsorted integer array, find a pair with the given sum in it.
+For example
+Input: nums = [8, 7, 2, 5, 3, 1]target = 10 Output: Pair found (8, 2)orPair found (7, 3) 
+Question-2
+Given an integer array, replace each element with the product of every other element without using the division operator.
+For example,
+Input:  { 1, 2, 3, 4, 5 }Output: { 120, 60, 40, 30, 24 }  Input:  { 5, 3, 4, 2, 6, 8 }Output: { 1152, 1920, 1440, 2880, 960, 720 }
+Question-3
+Maximum Sum Circular Subarray
+Given a circular integer array, find a subarray with the largest sum in it.
+For example :Input:  {2, 1, -5, 4, -3, 1, -3, 4, -1} Output: Subarray with the largest sum is {4, -1, 2, 1} with sum 6.
+
+
+Question-4:
+Find the maximum difference between two array elements that satisfies the given constraints
+Given an integer array, find the maximum difference between two elements in it such that the smaller element appears before the larger element.
+For example:Input:  { 2, 7, 9, 5, 1, 3, 5 } Output: The maximum difference is 7. The pair is (2, 9) 
+
+Question:5 
+Given an array of integers of size N, the task is to find the first non-repeating element in this array. 
+Examples:
+Input: {-1, 2, -1, 3, 0}
+Output: 2
+Explanation: The first number that does not repeat is : 2
+Input: {9, 4, 9, 6, 7, 4}
+Output: 6
+
+Question:6
+Minimize the maximum difference between the heights
+Given the heights of N towers and a value of K, Either increase or decrease the height of every tower by K (only once) where K > 0. After modifications, the task is to minimize the difference between the heights of the longest and the shortest tower and output its difference.
+Examples: 
+Input: arr[] = {1, 15, 10}, k = 6
+Output:  Maximum difference is 5.
+Explanation: Change 1 to 7, 15 to 9 and 10 to 4. Maximum difference is 5 (between 4 and 9). We can’t get a lower difference.
+Input: arr[] = {1, 5, 15, 10}, k = 3   
+Output: Maximum difference is 8, arr[] = {4, 8, 12, 7}
+
+
